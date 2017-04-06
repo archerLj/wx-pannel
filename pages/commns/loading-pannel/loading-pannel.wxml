@@ -1,0 +1,9 @@
+<template name="loadingPannel">
+    <view class="loading-pannel" hidden="{{isHide}}">
+        <image class="_loading_img" src="{{loading_img}}" mode="aspectFill"></image>
+        <view class="_loading_text_view">
+            <text>{{loading_text}}</text>
+        </view>
+        <image class="_loading_bottom_img" src="{{loading_bottom_img}}" mode="aspectFit"></image>
+    </view>
+</template>

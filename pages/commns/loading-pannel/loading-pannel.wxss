@@ -1,0 +1,28 @@
+.loading-pannel {
+  background-color: white;
+  z-index: 999;
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  box-shadow: 0 0 20rpx black;
+  text-align: center;
+  color: black;
+  font-size: 36rpx;
+}
+
+._loading_img {
+  width: 100%;
+  height: 70%;
+}
+
+._loading_text_view {
+  margin-top: 20rpx;
+}
+
+._loading_bottom_img {
+  width: 100%;
+  bottom: 0;
+  height: 36rpx;
+}

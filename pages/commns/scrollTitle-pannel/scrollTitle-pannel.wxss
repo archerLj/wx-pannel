@@ -1,0 +1,24 @@
+.st-scroll {
+  height: 80rpx;
+}
+
+.st-content-view {
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+}
+
+.st-content-view .st-title-btn {
+  width: auto;
+  color: black;
+  flex-shrink: 0;
+  border-radius: 0rpx;
+  border: none;
+  font-size: 36rpx;
+}
+
+.st-content-view .selected {
+  color: red;
+  font-size: 36rpx;
+  border-bottom: 2rpx solid red;
+}

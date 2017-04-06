@@ -1,0 +1,9 @@
+<template name="scrollTitlePannel">
+<scroll-view class="st-scroll" scroll-x="true">
+  <view class="st-content-view">
+    <button wx:for="{{titles}}" class="st-title-btn {{index==curIndex ? 'selected': ''}}" data-index="{{index}}" catchtap="__stpannel__clickText" plain="true">{{item}}</button>
+  </view>
+  </scroll-view>
+</template>
+
+

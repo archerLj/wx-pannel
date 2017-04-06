@@ -1,0 +1,5 @@
+<import src="../commns/scrollTitle-pannel/scrollTitle-pannel.wxml"/>
+<template is="scrollTitlePannel" data="{{ ...__stpannel__, titles: titles }}"></template>
+
+<import src="../commns/loading-pannel/loading-pannel.wxml" />
+<template is="loadingPannel" data="{{ ...__ldpanel__ }}"></template>
